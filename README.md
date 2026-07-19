@@ -67,6 +67,7 @@ make clean         # Clean build artifacts
 ```
 
 ### Project Structure
+```
 big-integer-arithmetic/
 ├── README.md
 ├── Makefile
@@ -81,6 +82,7 @@ big-integer-arithmetic/
 │   ├── expressions.txt
 │   └── test-*.cpp                # Unit tests
 └── .gitignore
+```
 
 ### What I Learned
 - Implementing low-level data structures (linked-list Stack)
