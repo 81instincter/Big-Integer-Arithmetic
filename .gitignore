@@ -1,0 +1,33 @@
+# Build artifacts
+*.o
+main
+main_debug
+main_exec
+*.exe
+
+# Temporary files
+*.tmp
+*.log
+core
+*.core
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test artifacts (if any)
+test/*.o
+*.dSYM
+
+# Compiled tests
+test-*
+
+# Do not track the large test file if it's generated
+# expressions.txt is ok to keep
