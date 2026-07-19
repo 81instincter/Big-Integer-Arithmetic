@@ -5,7 +5,6 @@
 [![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)]()
 
 **A C++ implementation of arbitrary-precision integer addition and subtraction using a custom Stack ADT.**  
-*Perfect for showcasing data structures, OOP, and algorithmic problem-solving to recruiters.*
 
 ## Project Overview
 
