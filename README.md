@@ -94,4 +94,3 @@ This project was completed as part of a Data Structures course and demonstrates 
 
 ### How to Contribute / Use
 Feel free to fork and extend (e.g., add multiplication, division, or a GUI interface).
-Recruiters: Check out the clean, well-commented code and passing tests!
