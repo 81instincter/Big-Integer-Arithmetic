@@ -55,12 +55,42 @@ Physical machines have fixed limits for integer sizes (e.g., 32/64-bit). This pr
 -559455474908310877663813463
 ----------
 
-# Build and Run
+### Build and Run
 
-```# Clone and navigate to project
-   make main          # Build the main executable
-   ./main             # Run sample expressions from test/expressions.txt
+```bash
+# Clone and navigate to project
+make main          # Build the main executable
+./main             # Run sample expressions from test/expressions.txt
 
-   make test-all      # Run all unit tests (requires Catch2)
-   make clean         # Clean build artifacts
-   ```
+make test-all      # Run all unit tests (requires Catch2)
+make clean         # Clean build artifacts
+```
+
+### Project Structure
+big-integer-arithmetic/
+├── README.md
+├── Makefile
+├── src/                          # Core source files
+│   ├── main.cpp
+│   ├── stack.hpp / stack.cpp
+│   ├── operand.hpp / operand.cpp
+│   ├── arithmetic-expression.hpp / .cpp
+│   ├── big-integer-arithmetic.hpp / .cpp
+│   └── expression-reader.hpp / .cpp
+├── test/
+│   ├── expressions.txt
+│   └── test-*.cpp                # Unit tests
+└── .gitignore
+
+### What I Learned
+- Implementing low-level data structures (linked-list Stack)
+- Algorithm design for multi-digit arithmetic (carry propagation, borrowing)
+- Handling edge cases: unequal lengths, negative results, leading zeros
+- Professional C++ practices: RAII, const correctness, separation of concerns
+- Testing and debugging complex stateful operations
+
+This project was completed as part of a Data Structures course and demonstrates strong problem-solving skills with fundamental CS concepts.
+
+### How to Contribute / Use
+Feel free to fork and extend (e.g., add multiplication, division, or a GUI interface).
+Recruiters: Check out the clean, well-commented code and passing tests!
