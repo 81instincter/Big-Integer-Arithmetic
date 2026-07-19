@@ -55,3 +55,12 @@ Physical machines have fixed limits for integer sizes (e.g., 32/64-bit). This pr
 -559455474908310877663813463
 ----------
 
+# Build and Run
+
+```# Clone and navigate to project
+   make main          # Build the main executable
+   ./main             # Run sample expressions from test/expressions.txt
+
+   make test-all      # Run all unit tests (requires Catch2)
+   make clean         # Clean build artifacts
+   ```
