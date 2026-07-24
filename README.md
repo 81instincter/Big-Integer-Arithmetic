@@ -92,5 +92,8 @@ big-integer-arithmetic/
 
 This project was completed as part of a Data Structures course and demonstrates strong problem-solving skills with fundamental CS concepts.
 
+### Author
+**Elijah Kenning.**
+
 ### How to Contribute / Use
 Feel free to fork and extend (e.g., add multiplication, division, or a GUI interface).
